@@ -64,3 +64,4 @@ test('TL-19-6 Check completed button usage', async ({page}) => {
     await home.clickCompletedButton()
     await home.checkCountOfItems(1)
 })
+// for commit
