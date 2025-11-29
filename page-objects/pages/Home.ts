@@ -1,6 +1,7 @@
 import {expect, Locator, Page} from "@playwright/test";
 import TodoItem from "../organisms/TodoItem";
-import {SERVICE_URL} from "../../env/env-data";
+
+const SERVICE_URL = process.env.SERVICE_URL!;
 
 export class Home {
     readonly page: Page
